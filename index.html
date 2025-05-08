@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otel Rezervasyon Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Otel Rezervasyon Sistemi</h1>
+        
+        <div class="room-selection">
+            <h2>Oda Seçimi</h2>
+            <div class="room-options">
+                <div class="room-card" data-room="standard">
+                    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=500" alt="Standart Oda">
+                    <h3>Standart Oda</h3>
+                </div>
+                <div class="room-card" data-room="deluxe">
+                    <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?w=500" alt="Deluxe Oda">
+                    <h3>Deluxe Oda</h3>
+                </div>
+                <div class="room-card" data-room="suite">
+                    <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=500" alt="Suit Oda">
+                    <h3>Suit Oda</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="reservation-form">
+            <h2>Rezervasyon Bilgileri</h2>
+            <form id="reservationForm">
+                <div class="form-group">
+                    <label for="name">Ad Soyad:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkIn">Giriş Tarihi:</label>
+                    <input type="date" id="checkIn" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkOut">Çıkış Tarihi:</label>
+                    <input type="date" id="checkOut" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Kişi Sayısı:</label>
+                    <input type="number" id="guests" min="1" max="4" required>
+                </div>
+                <button type="submit" class="submit-btn">Rezervasyonu Tamamla</button>
+            </form>
+        </div>
+
+        <button id="showHistory" class="history-btn">Geçmiş Rezervasyonlar</button>
+    </div>
+
+    <div id="historyModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Geçmiş Rezervasyonlar</h2>
+            <div id="reservationHistory"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
