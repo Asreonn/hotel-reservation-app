@@ -1,0 +1,25 @@
+\selectlanguage *{turkish}
+\contentsline {section}{\numberline {1}Projenin Özeti}{2}{section.1}%
+\contentsline {section}{\numberline {2}Projenin Amacı ve Kapsamı}{2}{section.2}%
+\contentsline {section}{\numberline {3}Genel Uygulama Akışı}{2}{section.3}%
+\contentsline {section}{\numberline {4}Proje Dizin Yapısı}{2}{section.4}%
+\contentsline {section}{\numberline {5}Projeyi Nasıl İlerlettik}{3}{section.5}%
+\contentsline {section}{\numberline {6}Kayıtların Saklanması}{3}{section.6}%
+\contentsline {section}{\numberline {7}Kullanıcı Deneyimi Tarafı}{3}{section.7}%
+\contentsline {section}{\numberline {8}Arayüz Tarafı}{3}{section.8}%
+\contentsline {section}{\numberline {9}Kod Bölümleri}{5}{section.9}%
+\contentsline {subsection}{\numberline {9.1}1. pubspec.yaml - Proje bağımlılıkları ve asset tanımları}{6}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}2. lib/main.dart - Uygulamanın giriş noktası}{7}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}3. lib/app/app.dart - Uygulama kurulumu ve Provider bağlama}{8}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}4. lib/app/theme.dart - Tema, renk sistemi ve ortak görünüm kararları}{9}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}5. lib/data/demo\_content.dart - Demo otel ve oda verileri}{12}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}6. lib/models/hotel\_models.dart - Veri modelleri ve serileştirme mantığı}{18}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}7. lib/state/hotel\_app\_state.dart - Merkezi uygulama durumu ve veri kalıcılığı}{21}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}8. lib/screens/hotel\_shell.dart - Ana kabuk, menü yapısı ve responsive navigasyon}{25}{subsection.9.8}%
+\contentsline {subsection}{\numberline {9.9}9. lib/screens/hotels\_screen.dart - Otel listeleme, arama ve filtreleme ekranı}{30}{subsection.9.9}%
+\contentsline {subsection}{\numberline {9.10}10. lib/screens/booking\_screen.dart - Rezervasyon formu, tarih seçimi ve fiyat özeti}{39}{subsection.9.10}%
+\contentsline {subsection}{\numberline {9.11}11. lib/screens/reservations\_screen.dart - Yaklaşan ve geçmiş rezervasyonları gösteren ekran}{58}{subsection.9.11}%
+\contentsline {subsection}{\numberline {9.12}12. lib/utils/formatters.dart - Para ve tarih biçimlendirme yardımcıları}{61}{subsection.9.12}%
+\contentsline {subsection}{\numberline {9.13}13. lib/widgets/hotel\_widgets.dart - Tekrar kullanılabilir ortak widget bileşenleri}{62}{subsection.9.13}%
+\contentsline {subsection}{\numberline {9.14}14. test/widget\_test.dart - Widget testleri ve temel senaryolar}{67}{subsection.9.14}%
+\contentsline {section}{\numberline {10}Uygulama Ekran Görselleri}{69}{section.10}%
