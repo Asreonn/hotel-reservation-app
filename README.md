@@ -1,38 +1,32 @@
-# Otel rezervasyon
+# Hotel reservation app (StayBook)
 
-Otel rezervasyon uygulaması, yaklaşık 4 bin satır, test var.
+A Flutter hotel booking app with demo data: browse hotels, compare room types and manage your reservations. Coursework / example project; the UI is in Turkish.
 
-The previous README was the Flutter template sentence. Feature claims below are only what the 2026-09-22 scan could see.
+> **Status:** Archived. Example project, first files from December 2024, finished April 2026. About 4k lines of Dart, with a widget test.
 
-## Project State
+<p>
+  <img src="reports/Screenshot%20From%202026-04-15%2022-56-11.png" width="240" alt="Hotel list">
+  <img src="reports/Screenshot%20From%202026-04-15%2022-56-18.png" width="240" alt="Hotel detail and rooms">
+</p>
 
-Status: PAUSED
-Completion: 50
-Last reviewed: 2026-09-22
-Family: hotel
-Resume cost: medium
+## Features
 
-### Purpose
+- Hotel list with search and filters, ratings and review counts.
+- Hotel detail with photos, location tags and room variants (standard, deluxe, club) showing size, capacity and price.
+- Booking flow (dates, guests, room choice) and a "My reservations" tab.
+- State with `provider`; reservations persist locally with `shared_preferences`.
+- Demo content in `lib/data/demo_content.dart` (no backend).
 
-Otel rezervasyon uygulaması, yaklaşık 4 bin satır, test var.
+## Tech stack
 
-### Current state
+Flutter (Dart), provider, shared_preferences.
 
-lib var.
+## Run
 
-### Missing / unfinished
+```bash
+flutter pub get
+flutter run          # Android, iOS, Linux, macOS or web
+flutter test
+```
 
-README büyük ölçüde şablon.
-
-### Next action
-
-Yeni otel uygulaması açma. Buradaki akışın neresi eksik bak.
-
-### Important files
-
-Registry id `hotel-rezervasyon`. Source scan: 15 files, about 4151 lines, tests=True.
-
-### Related projects
-
-none
-
+The project report (Turkish, LaTeX + PDF) is in `reports/`.
